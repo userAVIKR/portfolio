@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+
+body {
+    background-color: black;
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(93, 91, 91);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0px 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav ul li a:hover {
+
+    color: rgba(167, 211, 218, 0.356);
+}
+
+
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.leftpart {
+    width: 30%;
+    font-size: 1.5rem;
+    margin: 60px;
+
+}
+
+.rightpart {
+    width: 30%;
+
+}
+
+img {
+    width: 80%;
+    margin: 47px 0px;
+    margin-top: 100px;
+
+}
+
+.rightpart h3 {
+    display: flex;
+    margin: -50px 69px;
+}
+
+.leftpart a{
+    color: aliceblue;
+}
+
+.leftpart a:hover{
+    color: blueviolet;
+   
+}
+
+
+ hr {
+    border: 0;
+    background-color: aliceblue;
+    height: 0.2rem;
+    margin: 40px 84px;
+}
+
+.navbarbottom {
+    background-color: black;
+    display: inline-block;
+    margin-left: 59px;
+
+}
+
+.About h1 {
+    margin-left: 190px;
+    margin-top: 10px;
+
+}
+
+.contact h1 {
+    margin-left: 190px;
+    margin-top: 10px;
+
+}
+
+.skills h1 {
+    margin-left: 190px;
+    margin-top: 10px;
+
+}
+
+
+.projects h1 {
+    margin-left: 190px;
+    margin-top: 10px;
+
+}
+
+h3{
+    margin-left: 190px;
+    margin-top:10px ;
+}
+.web{
+    display: flex;
+    margin-left: 190px;
+    flex-wrap: wrap;
+    column-gap: 0.3em; 
+    
+    width: 490px;
+    
+}
+
+
+.box{
+    height: 30px;
+    width: 160px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    text-align: center;
+    background-color:#808080a3;  
+    margin-top: 10px;
+    
+    
+}
+
+.box a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.box:hover{
+    background-color: #808080fe;
+}
+.web2{
+    display: flex;
+    margin-left: 190px;
+    flex-wrap: wrap;
+    column-gap: 0.3em; 
+    
+    width: 490px;
+}
+
+
+
+.web3{
+    display: flex;
+    margin-left: 190px;
+    flex-wrap: wrap;
+    column-gap: 0.3em;
+    
+    width: 490px;
+} 
+
+
+
+.web4{
+    display: flex;
+    margin-left: 190px;
+    
+    
+    flex-wrap: wrap;
+    column-gap: 0.3em; 
+    
+    width: 490px;
+}
+
+footer{
+    margin-top: auto;
+    
+}
+
+main .About2{
+    width: 500px;
+   margin-left: 190px;
+   margin-top: 30px;
+}
+
+
+main .project2{
+    width: 500px;
+   margin-left: 190px;
+   margin-top: 30px;
+}
+
+.blog{
+    margin-left: 190px;
+    margin-top: 10px;
+}
+
+main .blog2{
+    width: 500px;
+   margin-left: 190px;
+   margin-top: 30px;
+}
